@@ -121,97 +121,95 @@
 <main class="flex-grow">
     <div class="py-16 px-4"><div class="max-w-6xl mx-auto">
         <h1 class="text-4xl font-bold mb-8">Submit News Tip</h1>
-        <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-900">
-            <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=1200&q=80" alt="Submit a News Tip" class="absolute inset-0 w-full h-full object-cover z-0">
-        <div class="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
-    
-    <div class="relative z-20 text-center text-white px-6 max-w-5xl mx-auto">
-                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 drop-shadow-lg">
-                Submit a News Tip            </h1>
-        
-                    <p class="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto drop-shadow-md">
-                Have a product launch, breakthrough, or industry development?            </p>
-        
-            </div>
-</section>
-<section class="py-16 px-4 bg-gray-50">
-    <div class="max-w-2xl mx-auto">
-                    <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">News Tip</h2>
-        
-                    <p class="text-lg text-center text-gray-600 mb-8">Verified by editorial team before publication.</p>
-        
-                <form action="/api/contact" method="POST" class="space-y-6 bg-white p-8 rounded-lg shadow-md" onsubmit="this.querySelector('button').textContent='Submitting...'; this.querySelector('button').disabled=true;">
-                    <input type="hidden" name="_subject" value="News Tip">
-                    <input type="hidden" name="_redirect" value="https://jrdtt.com/daily-tip/?submitted=1">
-                                                                                <div class="flex flex-col">
-                                                    <label for="your-name" class="mb-2 text-sm font-medium text-gray-700">
-                                Your Name                                                                    <span class="text-red-500">*</span>
-                                                            </label>
-                        
-                                                    <input
-                                type="text"
-                                id="your-name"
-                                name="your-name"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
-                                required                            >
-                                            </div>
-                                                        <div class="flex flex-col">
-                                                    <label for="email" class="mb-2 text-sm font-medium text-gray-700">
-                                Email                                                                    <span class="text-red-500">*</span>
-                                                            </label>
-                        
-                                                    <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
-                                required                            >
-                                            </div>
-                                                        <div class="flex flex-col">
-                                                    <label for="news-category" class="mb-2 text-sm font-medium text-gray-700">
-                                News Category                                                                    <span class="text-red-500">*</span>
-                                                            </label>
-                        
-                                                    <input
-                                type="text"
-                                id="news-category"
-                                name="news-category"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
-                                required                            >
-                                            </div>
-                                                        <div class="flex flex-col">
-                                                    <label for="tip-details" class="mb-2 text-sm font-medium text-gray-700">
-                                Tip Details                                                                    <span class="text-red-500">*</span>
-                                                            </label>
-                        
-                                                    <textarea
-                                id="tip-details"
-                                name="tip-details"
-                                rows="4"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
-                                required                            ></textarea>
-                                            </div>
-                                                        <div class="flex flex-col">
-                                                    <label for="source---link" class="mb-2 text-sm font-medium text-gray-700">
-                                Source / Link                                                            </label>
-                        
-                                                    <input
-                                type="text"
-                                id="source---link"
-                                name="source---link"
-                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
-                                                            >
-                                            </div>
-                            
-                            <div class="pt-4">
-                    <button
-                        type="submit"
-                        class="w-full bg-blue-600 text-white font-semibold py-3 px-6 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200"
-                    >
-                        Submit Tip                    </button>
-                </div>
-                    </form>
-    </div>
+        <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-900">
+            <img src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=1200&q=80" alt="Submit a News Tip" class="absolute inset-0 w-full h-full object-cover z-0">
+        <div class="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
+    
+    <div class="relative z-20 text-center text-white px-6 max-w-5xl mx-auto">
+                    <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 drop-shadow-lg">
+                Submit a News Tip            </h1>
+        
+                    <p class="text-lg md:text-xl lg:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto drop-shadow-md">
+                Have a product launch, breakthrough, or industry development?            </p>
+        
+            </div>
+</section>
+<section class="py-16 px-4 bg-gray-50">
+    <div class="max-w-2xl mx-auto">
+                    <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">News Tip</h2>
+        
+                    <p class="text-lg text-center text-gray-600 mb-8">Verified by editorial team before publication.</p>
+        
+                <form action="#" method="POST" class="space-y-6 bg-white p-8 rounded-lg shadow-md" onsubmit="this.querySelector('button').textContent='Submitting...'; this.querySelector('button').disabled=true;">
+                                                                                <div class="flex flex-col">
+                                                    <label for="your-name" class="mb-2 text-sm font-medium text-gray-700">
+                                Your Name                                                                    <span class="text-red-500">*</span>
+                                                            </label>
+                        
+                                                    <input
+                                type="text"
+                                id="your-name"
+                                name="your-name"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                                required                            >
+                                            </div>
+                                                        <div class="flex flex-col">
+                                                    <label for="email" class="mb-2 text-sm font-medium text-gray-700">
+                                Email                                                                    <span class="text-red-500">*</span>
+                                                            </label>
+                        
+                                                    <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                                required                            >
+                                            </div>
+                                                        <div class="flex flex-col">
+                                                    <label for="news-category" class="mb-2 text-sm font-medium text-gray-700">
+                                News Category                                                                    <span class="text-red-500">*</span>
+                                                            </label>
+                        
+                                                    <input
+                                type="text"
+                                id="news-category"
+                                name="news-category"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                                required                            >
+                                            </div>
+                                                        <div class="flex flex-col">
+                                                    <label for="tip-details" class="mb-2 text-sm font-medium text-gray-700">
+                                Tip Details                                                                    <span class="text-red-500">*</span>
+                                                            </label>
+                        
+                                                    <textarea
+                                id="tip-details"
+                                name="tip-details"
+                                rows="4"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                                required                            ></textarea>
+                                            </div>
+                                                        <div class="flex flex-col">
+                                                    <label for="source---link" class="mb-2 text-sm font-medium text-gray-700">
+                                Source / Link                                                            </label>
+                        
+                                                    <input
+                                type="text"
+                                id="source---link"
+                                name="source---link"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition"
+                                                            >
+                                            </div>
+                            
+                            <div class="pt-4">
+                    <button
+                        type="submit"
+                        class="w-full bg-blue-600 text-white font-semibold py-3 px-6 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-200"
+                    >
+                        Submit Tip                    </button>
+                </div>
+                    </form>
+    </div>
 </section>    </div></div>
 </main>
 
